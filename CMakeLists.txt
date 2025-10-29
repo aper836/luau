@@ -139,6 +139,7 @@ if(LUAU_EXTERN_C)
     target_compile_definitions(Luau.VM PUBLIC LUA_USE_LONGJMP=1)
     target_compile_definitions(Luau.VM PUBLIC LUA_API=extern\ "C")
     target_compile_definitions(Luau.Compiler PUBLIC LUACODE_API=extern\ "C")
+    target_compile_definitions(Luau.Compiler PUBLIC LUALIB_API=extern\ "C")
 endif()
 
 if(LUAU_NATIVE)
