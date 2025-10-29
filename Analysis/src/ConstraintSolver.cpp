@@ -17,6 +17,8 @@
 #include "Luau/Unifier.h"
 #include "Luau/VisitType.h"
 
+#include <algorithm>
+
 LUAU_FASTFLAGVARIABLE(DebugLuauLogSolver, false);
 LUAU_FASTFLAG(LuauRequirePathTrueModuleName)
 

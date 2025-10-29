@@ -4,6 +4,8 @@
 #include "Luau/TxnLog.h"
 #include "Luau/TypeArena.h"
 
+#include <algorithm>
+
 LUAU_FASTFLAG(LuauClassTypeVarsInSubstitution)
 
 namespace Luau

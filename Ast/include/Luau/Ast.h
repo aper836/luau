@@ -7,6 +7,8 @@
 #include <functional>
 #include <string>
 
+#include <cstdint>
+
 #include <string.h>
 
 namespace Luau
